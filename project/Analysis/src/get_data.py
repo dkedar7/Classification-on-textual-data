@@ -39,6 +39,8 @@ def download():
     for i in range(len(data['test'].data)) if \
     (data['test'].target_names)[data['test'].target[i]] in classes]
 
+    np.savez("../Data/scratch_data",train_text,train_labels,test_text,test_labels)
+
 
 if __name__ == '__main__':
     download()
