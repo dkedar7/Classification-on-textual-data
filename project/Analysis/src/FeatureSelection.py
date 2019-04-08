@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 def VarianceThreshold(feature_matrix,threshold = 0.8):
 

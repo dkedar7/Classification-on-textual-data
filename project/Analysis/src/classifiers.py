@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+
 from sklearn.neighbors import KNeighborsClassifier as KNN
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
@@ -16,10 +16,10 @@ class KNN_classifier(object):
         super().__init__()
         self.k = param
 
-   def train(self,feature_matrix,label_vector):
+    def train(self,feature_matrix,label_vector):
         self.trained_model = KNN(n_neighbors = self.k).fit(feature_matrix, label_vector)
 
-   def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class logreg_model(object):
@@ -31,7 +31,7 @@ class logreg_model(object):
         solver="liblinear",multi_class="ovr",class_weight = "balanced",
         max_iter = 100).fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class SVM(object):
@@ -44,7 +44,7 @@ class SVM(object):
         self.trained_model = SVC(C=self.C,class_weight="balanced",kernel="rbf",gamma="auto")
         self.trained_model.fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class RandomForest(object):
@@ -57,7 +57,7 @@ class RandomForest(object):
         self.trained_model = RandomForestClassifier(n_estimators=self.ntrees, max_depth=self.depth,random_state=0)
         self.trained_model.fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class MLP(object):
@@ -71,7 +71,7 @@ class MLP(object):
         random_state = 2,max_iter = 500,warm_start = False)
         self.trained_model.fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class AdaBoost(object):
@@ -83,7 +83,7 @@ class AdaBoost(object):
         self.trained_model = AdaBoostClassifier(n_estimators=self.n_estimators)
         self.trained_model.fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class GNB(object):
@@ -94,7 +94,7 @@ class GNB(object):
         self.trained_model = GaussianNB()
         self.trained_model.fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
 
 class Voting_Classifier(object):
@@ -110,5 +110,5 @@ class Voting_Classifier(object):
                                 voting="soft", weights=[1, 1])
         self.trained_model.fit(feature_matrix,label_vector)
 
-    def evaluate(self,feature_matrix):
+    def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)

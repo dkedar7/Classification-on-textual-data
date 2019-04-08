@@ -49,6 +49,8 @@ def vectorize_text():
     train_text = [preprocess_text(text) for text in train_text]
     test_text = [preprocess_text(text) for text in test_text]
 
+    np.savez("../Data/cleaned_data",train_text,train_labels,test_text,test_labels)
+
     vectorizer_count = CountVectorizer(stop_words ='english').fit(train_text)
 
     train_countvector = vectorizer_count.transform(train_text)
