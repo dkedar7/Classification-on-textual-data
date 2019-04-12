@@ -1,0 +1,37 @@
+INFO:root:Feature_selection = PC_2343
+INFO:root:Algorithm = KNN
+INFO:root:Runtime = Hyperparameter optimization over K in range(50,300,10)
+INFO:root:K = 50 	 Train F1 = 0.8049647633337493 	 Validation F1 = 0.8313392489863078
+INFO:root:K = 60 	 Train F1 = 0.8038570700837969 	 Validation F1 = 0.8262731208880933
+INFO:root:K = 70 	 Train F1 = 0.7998261008200218 	 Validation F1 = 0.815012546735398
+INFO:root:K = 80 	 Train F1 = 0.8049491047970369 	 Validation F1 = 0.8077680976102349
+INFO:root:K = 90 	 Train F1 = 0.8010525139718851 	 Validation F1 = 0.8172490523763485
+INFO:root:K = 100 	 Train F1 = 0.7994716478470297 	 Validation F1 = 0.8099673301546457
+INFO:root:K = 110 	 Train F1 = 0.7950996951522219 	 Validation F1 = 0.8051688069956534
+INFO:root:K = 120 	 Train F1 = 0.7871459606575427 	 Validation F1 = 0.8022826092516715
+INFO:root:K = 130 	 Train F1 = 0.7843116160399114 	 Validation F1 = 0.7899538885857744
+INFO:root:K = 140 	 Train F1 = 0.7884370622116097 	 Validation F1 = 0.7847150493978543
+INFO:root:K = 150 	 Train F1 = 0.7873571074553635 	 Validation F1 = 0.7797878141834692
+INFO:root:K = 160 	 Train F1 = 0.7875981590442536 	 Validation F1 = 0.7817196270513922
+INFO:root:K = 170 	 Train F1 = 0.7897010095702215 	 Validation F1 = 0.7941084721729883
+INFO:root:K = 180 	 Train F1 = 0.7870664994526057 	 Validation F1 = 0.8043094405594406
+INFO:root:K = 190 	 Train F1 = 0.7854720052839526 	 Validation F1 = 0.7991027498618205
+INFO:root:K = 200 	 Train F1 = 0.7850428031214469 	 Validation F1 = 0.7988602451084247
+INFO:root:K = 210 	 Train F1 = 0.785198691655603 	 Validation F1 = 0.7958007838120659
+INFO:root:K = 220 	 Train F1 = 0.78144711422727 	 Validation F1 = 0.7909430183957245
+INFO:root:K = 230 	 Train F1 = 0.7840345936945263 	 Validation F1 = 0.7882206641716802
+INFO:root:K = 240 	 Train F1 = 0.7871049712985196 	 Validation F1 = 0.7859451592020574
+INFO:root:K = 250 	 Train F1 = 0.7856077169944256 	 Validation F1 = 0.7806313290483706
+INFO:root:K = 260 	 Train F1 = 0.7850735180373751 	 Validation F1 = 0.7829184734092456
+INFO:root:K = 270 	 Train F1 = 0.7800967922437221 	 Validation F1 = 0.7780995172365732
+INFO:root:K = 280 	 Train F1 = 0.7774933562928208 	 Validation F1 = 0.7783101406501836
+INFO:root:K = 290 	 Train F1 = 0.7774139869471712 	 Validation F1 = 0.788477863494129
+INFO:root:Time to run : 566.4583351612091 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

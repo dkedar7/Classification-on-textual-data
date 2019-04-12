@@ -1,0 +1,5 @@
+INFO:root:Feature_selection = PC_2343
+INFO:root:Algorithm = KNN
+INFO:root:Runtime = Hyperparameter optimization over K in range(5,60,10) with all 2343 PCs.
+INFO:root:K = 5 	 Train F1 = 0.8496337205520543 	 Validation F1 = 0.7827075781781088
+INFO:root:K = 15 	 Train F1 = 0.8017479463573631 	 Validation F1 = 0.790802009411032

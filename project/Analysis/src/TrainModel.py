@@ -1,91 +1,83 @@
+from time import time
+start = time()
+
 import numpy as np
-import pandas as pd
-import sys
-import time
-from matplotlib import pyplot as plt
+import os
+
 from tqdm import tqdm
+import datetime
 
-from sklearn.externals import joblib
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import accuracy_score,f1_score,precision_score,recall_score,roc_auc_score,roc_curve
+import matplotlib.pyplot as plt
+from sklearn.metrics import classification_report
+from sklearn.metrics import f1_score
+from sklearn.metrics import confusion_matrix
+import logging
 
-from model_evaluation_modi import kfold_cv,upsample
-from feature_selection import VarianceThreshold, selectKbest, RecursiveFeatureElimination, PrincipalComponents
+from classifiers import *
+from FeatureSelection import *
 
-# Set arguments
-model_type = sys.argv[1]
-label_number = sys.argv[2]
-feature_selector = sys.argv[3]
+np.random.seed(0)
 
-# feature_matrix =
-# label_vector =
+try:
+    data = np.load("../Data/vectorized_data.npz")
+except:
+    os.system("python clean_data.py")
+    data = np.load("../Data/vectorized_data")
 
-scale_data = True
+train_tfidf,train_labels = data['arr_0'], data['arr_1']
+test_tfidf,test_labels = data['arr_2'], data['arr_3']
 
-if scale_data:
-    scaler = StandardScaler(with_std=True).fit(feature_matrix)
-    feature_matrix = scaler.transform(feature_matrix)
+# Import PC
+train_PC = np.load("data_dump/train_data_tfidf_PC_2343.npy")
+test_PC = np.load("data_dump/test_data_tfidf_PC_2343.npy")
 
-# Choose the model
-if model_type == "lgr":
-    from classifiers import logreg_model as model
-    mod = model()
+validation_PC = train_PC[-400:,:]
+val_labels = train_labels[-400:]
 
-elif model_type == "knn":
-    from classifiers import KNN_classifier as model
-    param = 100
-    mod = model(param = param)
+train_PC = train_PC[:-400,:]
+train_labels = train_labels[:-400]
 
-elif model_type == "svm":
-    from classifiers import SVM as model
-    mod = model()
+# Experiment details
+os.chdir("log/")
 
-elif model_type == "rdf":
-    from classifiers import RandomForest as model
-    mod = model(ntrees = 5,depth = 2)
+feature_selection = 'PC_2343'
+algorithm = 'KNN'
+runtime = 'Hyperparameter optimization over K in range(5,60,10) with all 2343 PCs.'
+log_name = 'KNN_hyp_optimalK_'+str(datetime.datetime.now()).replace(' ','_')\
+.replace(':','_').split(".")[0]+'.log'
 
-elif model_type == "mlp":
-    from classifiers import MLP as model
-    mod = model(n_hidden = 5,n_units = 200)
+logging.basicConfig(filename = log_name, level=logging.DEBUG)
+logging.info('Feature_selection = ' + feature_selection)
+logging.info('Algorithm = ' + algorithm)
+logging.info('Runtime = ' + runtime)
 
-elif model_type == "adb":
-    from classifiers import AdaBoost as model
-    mod = model(n_estimators = 5)
+# Experiemnt code
+train_f1 = []
+val_f1 = []
 
-elif model_type == "gnb":
-    from classifiers import GNB as model
-    mod = model()
+K_range = range(5,60,10)
+for param in tqdm(K_range):
+    classifier = KNN_classifier(param = param)
+    classifier.train(train_PC,train_labels)
 
-elif model_type == "vclf":
-    from classifiers import Voting_Classifier as model
-    mod = model()
+    train_predict = classifier.predict(train_PC)
+    val_predict = classifier.predict(validation_PC)
 
-# Choose the feature select
-if feature_selector == "vrt":
-    selector = VarianceThreshold(feature_matrix,threshold = 0.8)[:,:]
-    feature_matrix = selector.transform(feature_matrix)
+    tf1 = f1_score(train_labels,train_predict,average='macro')
+    vf1 = f1_score(val_labels,val_predict,average='macro')
 
-elif feature_selector == "skb":
-    selector = selectKbest(feature_matrix,label_vector)
-    feature_matrix = selector.transform(feature_matrix)
+    train_f1.append(tf1)
+    val_f1.append(vf1)
 
-elif feature_selector == "rfe":
-    selector = RecursiveFeatureElimination(feature_matrix,label_vector,10,kernel="linear")
-    feature_matrix = feature_matrix[:,np.array(selector.support_) == True]
+    logging.info('K = {} \t Train F1 = {} \t Validation F1 = {}'.format(param,tf1,vf1))
 
-elif feature_selector == "pca":
-    selector = PrincipalComponents(feature_matrix)[:,:]
-    feature_matrix = selector.transform(feature_matrix)
+logging.info("Time to run : {} s.".format(time()-start))
 
-else:
-    pass
-
-start = time.time()
-# Define and train model
-mod = model().train(feature_matrix,label_vector) # Optional parameters
-predictions = mod.evaluate(feature_matrix)
-
-# Evaluate model
-
-   
+plt.plot(K_range,train_f1,label='Train F1 Scores')
+plt.plot(K_range,val_f1,label='Validation F1 Scores')
+plt.xlabel("Number of NN")
+plt.ylabel("F1 Score")
+plt.legend()
+plt.grid()
+plt.savefig(log_name+'.png',bbox_inches = 'tight')
+plt.show()
