@@ -3,3 +3,16 @@ INFO:root:Algorithm = KNN
 INFO:root:Runtime = Hyperparameter optimization over K in range(5,60,10) with all 2343 PCs.
 INFO:root:K = 5 	 Train F1 = 0.8496337205520543 	 Validation F1 = 0.7827075781781088
 INFO:root:K = 15 	 Train F1 = 0.8017479463573631 	 Validation F1 = 0.790802009411032
+INFO:root:K = 25 	 Train F1 = 0.804436842011772 	 Validation F1 = 0.8171859593090635
+INFO:root:K = 35 	 Train F1 = 0.8013209971281886 	 Validation F1 = 0.8196247173878753
+INFO:root:K = 45 	 Train F1 = 0.8043201532475396 	 Validation F1 = 0.822152154350873
+INFO:root:K = 55 	 Train F1 = 0.8027101378166013 	 Validation F1 = 0.823941268695509
+INFO:root:Time to run : 155.55974507331848 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
