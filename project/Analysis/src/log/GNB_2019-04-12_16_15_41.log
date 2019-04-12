@@ -1,0 +1,6 @@
+INFO:root:Feature_selection = PC_2343
+INFO:root:Algorithm = GNB
+INFO:root:Runtime = Gaussian Naive Bayes with default parameters. All 2343 PCs used as features.
+ Validation set has 400 points.
+INFO:root:Train F1 = 0.5079686362043258 	 Validation F1 = 0.38328712687297983
+INFO:root:Time to run : 5.186115980148315 s.

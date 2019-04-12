@@ -1,0 +1,6 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = GNB
+INFO:root:Runtime = Gaussian Naive Bayes with default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Train F1 = 1.0 	 Validation F1 = 0.7861835195578589
+INFO:root:Time to run : 15.466866493225098 s.

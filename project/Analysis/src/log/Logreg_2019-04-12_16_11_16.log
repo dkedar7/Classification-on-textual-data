@@ -1,0 +1,6 @@
+INFO:root:Feature_selection = PC_2343
+INFO:root:Algorithm = Logreg
+INFO:root:Runtime = Logistic regression with fefault parameters. All 2343 PCs used as features.
+ Validation set has 400 points.
+INFO:root:Train F1 = 0.9836020090004582 	 Validation F1 = 0.9022257049949758
+INFO:root:Time to run : 7.32184624671936 s.
