@@ -1,0 +1,18 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = SVM
+INFO:root:Runtime = Hyperparameter optimization in SVM with C = np.linspace(0.5,1.0,5) default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:C = 0.5 	 Train F1 = 0.09722222222222222 	 Validation F1 = 0.10707269155206288
+INFO:root:C = 0.625 	 Train F1 = 0.09722222222222222 	 Validation F1 = 0.10707269155206288
+INFO:root:C = 0.75 	 Train F1 = 0.09722222222222222 	 Validation F1 = 0.10707269155206288
+INFO:root:C = 0.875 	 Train F1 = 0.09722222222222222 	 Validation F1 = 0.10707269155206288
+INFO:root:C = 1.0 	 Train F1 = 0.09722222222222222 	 Validation F1 = 0.10707269155206288
+INFO:root:Time to run : 6862.2880737781525 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

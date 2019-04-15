@@ -1,0 +1,8 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = SVM
+INFO:root:Runtime = Hyperparameter optimization in SVM with C = np.linspace(1.5,2.0,5) default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:C = 1.5 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
+INFO:root:C = 1.625 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
+INFO:root:C = 1.75 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
+INFO:root:C = 1.875 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186

@@ -24,7 +24,7 @@ class KNN_classifier(object):
         return self.trained_model.predict(feature_matrix)
 
 class logreg_model(object):
-    def __init__(self, C):
+    def __init__(self, C = 1):
         super().__init__()
         self.C = C
 
@@ -43,7 +43,7 @@ class SVM(object):
         self.C = C
 
     def train(self,feature_matrix,label_vector):
-        self.trained_model = SVC(C=self.C,class_weight="balanced",kernel="rbf",gamma="auto")
+        self.trained_model = SVC(C=self.C)
         self.trained_model.fit(feature_matrix,label_vector)
 
     def predict(self,feature_matrix):
