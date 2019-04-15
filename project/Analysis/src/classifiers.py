@@ -7,6 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.tree import DecisionTreeClassifier
 from itertools import product
 from sklearn.ensemble import VotingClassifier
@@ -23,13 +24,14 @@ class KNN_classifier(object):
         return self.trained_model.predict(feature_matrix)
 
 class logreg_model(object):
-    def __init__(self):
+    def __init__(self, C):
         super().__init__()
+        self.C = C
 
     def train(self,feature_matrix,label_vector):
         self.trained_model = LogisticRegression(random_state=1,
         solver="liblinear",multi_class="ovr",class_weight = "balanced",
-        max_iter = 100).fit(feature_matrix,label_vector)
+        max_iter = 100, C = self.C).fit(feature_matrix,label_vector)
 
     def predict(self,feature_matrix):
         return self.trained_model.predict(feature_matrix)
@@ -92,6 +94,18 @@ class GNB(object):
 
     def train(self,feature_matrix,label_vector):
         self.trained_model = GaussianNB()
+        self.trained_model.fit(feature_matrix,label_vector)
+
+    def predict(self,feature_matrix):
+        return self.trained_model.predict(feature_matrix)
+
+class MNB(object):
+    def __init__(self,alpha = 1.0):
+        super().__init__()
+        self.alpha = alpha
+
+    def train(self,feature_matrix,label_vector):
+        self.trained_model = MultinomialNB(alpha = self.alpha)
         self.trained_model.fit(feature_matrix,label_vector)
 
     def predict(self,feature_matrix):

@@ -1,0 +1,33 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = Logreg
+INFO:root:Runtime = Hyperperameter optimization in Logistic regression with C in np.linspace(0.01,1,20) and other default parameters. Features used as they are.
+ Validation set has 400 points. Max_iters decreased to 50.
+INFO:root:C = 0.01 	 Train F1 = 0.9126281844027047 	 Validation F1 = 0.8291646303078573
+INFO:root:C = 0.06210526315789474 	 Train F1 = 0.939418545905595 	 Validation F1 = 0.8692999019655052
+INFO:root:C = 0.11421052631578947 	 Train F1 = 0.9466517055162625 	 Validation F1 = 0.8790798604211839
+INFO:root:C = 0.16631578947368422 	 Train F1 = 0.9528115179995735 	 Validation F1 = 0.8817477833473284
+INFO:root:C = 0.21842105263157896 	 Train F1 = 0.954894361193266 	 Validation F1 = 0.8866554525505733
+INFO:root:C = 0.2705263157894737 	 Train F1 = 0.9584918945080083 	 Validation F1 = 0.8890886047923086
+INFO:root:C = 0.32263157894736844 	 Train F1 = 0.962086602437888 	 Validation F1 = 0.8890886047923086
+INFO:root:C = 0.37473684210526315 	 Train F1 = 0.9661801221447449 	 Validation F1 = 0.8917691508137116
+INFO:root:C = 0.4268421052631579 	 Train F1 = 0.9666915645263043 	 Validation F1 = 0.8942311055263161
+INFO:root:C = 0.4789473684210527 	 Train F1 = 0.9697552292271588 	 Validation F1 = 0.8942441736556662
+INFO:root:C = 0.5310526315789474 	 Train F1 = 0.9718080629603754 	 Validation F1 = 0.8968128727131305
+INFO:root:C = 0.5831578947368421 	 Train F1 = 0.9723125214920703 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.6352631578947369 	 Train F1 = 0.9754075138515935 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.6873684210526316 	 Train F1 = 0.9764274985775999 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.7394736842105263 	 Train F1 = 0.9779554546263463 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.791578947368421 	 Train F1 = 0.9784836980800959 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.8436842105263158 	 Train F1 = 0.9800050752635853 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.8957894736842106 	 Train F1 = 0.9810352838458867 	 Validation F1 = 0.9022257049949758
+INFO:root:C = 0.9478947368421053 	 Train F1 = 0.9825857834745995 	 Validation F1 = 0.9022257049949758
+INFO:root:C = 1.0 	 Train F1 = 0.9836020090004582 	 Validation F1 = 0.9022257049949758
+INFO:root:Time to run : 17.857062339782715 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

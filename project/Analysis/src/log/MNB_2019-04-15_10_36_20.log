@@ -1,0 +1,78 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = MNB
+INFO:root:Runtime = Hyperparameter optimization in Gaussian Naive Bayes with alpha = np.linspace(0.01,0.1,50) default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:alpha = 0.01 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8764940181136797
+INFO:root:alpha = 0.01183673469387755 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.881328143544674
+INFO:root:alpha = 0.013673469387755103 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8838533960699264
+INFO:root:alpha = 0.015510204081632653 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8861858186858187
+INFO:root:alpha = 0.017346938775510204 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8861858186858187
+INFO:root:alpha = 0.019183673469387756 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8838266443701226
+INFO:root:alpha = 0.02102040816326531 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8890079454595583
+INFO:root:alpha = 0.02285714285714286 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8888885213885214
+INFO:root:alpha = 0.02469387755102041 	 Train F1 = 0.9989827044212465 	 Validation F1 = 0.8888885213885214
+INFO:root:alpha = 0.026530612244897958 	 Train F1 = 0.9989827044212465 	 Validation F1 = 0.8913860890524294
+INFO:root:alpha = 0.02836734693877551 	 Train F1 = 0.9989827044212465 	 Validation F1 = 0.8890471094435375
+INFO:root:alpha = 0.030204081632653063 	 Train F1 = 0.9984735399797989 	 Validation F1 = 0.8890471094435375
+INFO:root:alpha = 0.032040816326530615 	 Train F1 = 0.9984735399797989 	 Validation F1 = 0.8890471094435375
+INFO:root:alpha = 0.03387755102040817 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8941115455631584
+INFO:root:alpha = 0.03571428571428572 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8941115455631584
+INFO:root:alpha = 0.037551020408163265 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.03938775510204082 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.04122448979591837 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.04306122448979592 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8940336127272527
+INFO:root:alpha = 0.04489795918367347 	 Train F1 = 0.9979529254859938 	 Validation F1 = 0.8940336127272527
+INFO:root:alpha = 0.046734693877551026 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8940336127272527
+INFO:root:alpha = 0.04857142857142858 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8940336127272527
+INFO:root:alpha = 0.05040816326530613 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8940336127272527
+INFO:root:alpha = 0.052244897959183675 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8940336127272527
+INFO:root:alpha = 0.05408163265306123 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.05591836734693878 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.05775510204081633 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.059591836734693884 	 Train F1 = 0.997444795404693 	 Validation F1 = 0.8966322312441215
+INFO:root:alpha = 0.06142857142857144 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8992394749245997
+INFO:root:alpha = 0.06326530612244897 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8992394749245997
+INFO:root:alpha = 0.06510204081632653 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8992394749245997
+INFO:root:alpha = 0.06693877551020408 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.9017454805846863
+INFO:root:alpha = 0.06877551020408164 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.9017454805846863
+INFO:root:alpha = 0.07061224489795918 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.07244897959183674 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.07428571428571429 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.07612244897959183 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.07795918367346939 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.07979591836734694 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.08163265306122448 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.08346938775510204 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.08530612244897959 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994127964600895
+INFO:root:alpha = 0.08714285714285715 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.08897959183673469 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.09081632653061225 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.0926530612244898 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.09448979591836734 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.0963265306122449 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.09816326530612245 	 Train F1 = 0.996936659009866 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.1 	 Train F1 = 0.9964274956244235 	 Validation F1 = 0.8994922860068251
+INFO:root:Time to run : 40.66080927848816 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

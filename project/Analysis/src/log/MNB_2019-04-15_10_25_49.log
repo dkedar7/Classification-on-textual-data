@@ -1,0 +1,44 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = MNB
+INFO:root:Runtime = Hyperparameter optimization in Gaussian Naive Bayes with alpha = np.linspace(0.1,1,20) default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:alpha = 0.1 	 Train F1 = 0.9964274956244235 	 Validation F1 = 0.8994922860068251
+INFO:root:alpha = 0.1473684210526316 	 Train F1 = 0.9943923596453084 	 Validation F1 = 0.9045051007211323
+INFO:root:alpha = 0.19473684210526315 	 Train F1 = 0.9928428150521423 	 Validation F1 = 0.9045239693905187
+INFO:root:alpha = 0.24210526315789474 	 Train F1 = 0.9918280212511218 	 Validation F1 = 0.9020167379509849
+INFO:root:alpha = 0.2894736842105263 	 Train F1 = 0.9913097798976493 	 Validation F1 = 0.9045292639134449
+INFO:root:alpha = 0.33684210526315794 	 Train F1 = 0.9902934466759983 	 Validation F1 = 0.8971957021893523
+INFO:root:alpha = 0.38421052631578945 	 Train F1 = 0.9897726317085036 	 Validation F1 = 0.8971957021893523
+INFO:root:alpha = 0.43157894736842106 	 Train F1 = 0.9887417612708546 	 Validation F1 = 0.8945579227102889
+INFO:root:alpha = 0.4789473684210527 	 Train F1 = 0.9887417612708546 	 Validation F1 = 0.8948575564270049
+INFO:root:alpha = 0.5263157894736842 	 Train F1 = 0.9882340117055843 	 Validation F1 = 0.8898155221301446
+INFO:root:alpha = 0.5736842105263158 	 Train F1 = 0.9876997748844548 	 Validation F1 = 0.8898155221301446
+INFO:root:alpha = 0.6210526315789474 	 Train F1 = 0.9871916718771822 	 Validation F1 = 0.8898155221301446
+INFO:root:alpha = 0.6684210526315789 	 Train F1 = 0.9856450511048405 	 Validation F1 = 0.8899232177051266
+INFO:root:alpha = 0.7157894736842105 	 Train F1 = 0.9851375502254451 	 Validation F1 = 0.8898699820928847
+INFO:root:alpha = 0.7631578947368421 	 Train F1 = 0.9851375502254451 	 Validation F1 = 0.8898699820928847
+INFO:root:alpha = 0.8105263157894737 	 Train F1 = 0.9841124484687649 	 Validation F1 = 0.8975276124299123
+INFO:root:alpha = 0.8578947368421053 	 Train F1 = 0.9825917452986523 	 Validation F1 = 0.8952280663644527
+INFO:root:alpha = 0.9052631578947369 	 Train F1 = 0.9825917452986523 	 Validation F1 = 0.8978446554047391
+INFO:root:alpha = 0.9526315789473684 	 Train F1 = 0.9825917452986523 	 Validation F1 = 0.8954435036865639
+INFO:root:alpha = 1.0 	 Train F1 = 0.981577754295595 	 Validation F1 = 0.8954435036865639
+INFO:root:Time to run : 19.199531316757202 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

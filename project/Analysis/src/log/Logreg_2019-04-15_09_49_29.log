@@ -1,0 +1,6 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = Logreg
+INFO:root:Runtime = Logistic regression with default parameters. Features used as they are.
+ Validation set has 400 points. Max_iters decreased to 50.
+INFO:root:Train F1 = 0.9836020090004582 	 Validation F1 = 0.9022257049949758
+INFO:root:Time to run : 11.714524269104004 s.

@@ -1,0 +1,15 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = Logreg
+INFO:root:Runtime = Hyperperameter optimization in Logistic regression with C in np.linspace(0.1,1,10) and other default parameters. Features used as they are.
+ Validation set has 400 points. Max_iters decreased to 50.
+INFO:root:C = 0.1 	 Train F1 = 0.9456245732661076 	 Validation F1 = 0.8790798604211839
+INFO:root:C = 0.2 	 Train F1 = 0.9538388875940231 	 Validation F1 = 0.8866554525505733
+INFO:root:C = 0.30000000000000004 	 Train F1 = 0.9610742193541142 	 Validation F1 = 0.8890886047923086
+INFO:root:C = 0.4 	 Train F1 = 0.9666915645263043 	 Validation F1 = 0.8917691508137116
+INFO:root:C = 0.5 	 Train F1 = 0.9707933734744423 	 Validation F1 = 0.8968128727131305
+INFO:root:C = 0.6 	 Train F1 = 0.9733387846016722 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.7000000000000001 	 Train F1 = 0.9764274985775999 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.8 	 Train F1 = 0.9784836980800959 	 Validation F1 = 0.8995943295918469
+INFO:root:C = 0.9 	 Train F1 = 0.9810352838458867 	 Validation F1 = 0.9022257049949758
+INFO:root:C = 1.0 	 Train F1 = 0.9836020090004582 	 Validation F1 = 0.9022257049949758
+INFO:root:Time to run : 13.465779542922974 s.

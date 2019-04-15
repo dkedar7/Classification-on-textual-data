@@ -41,12 +41,11 @@ train_labels = train_labels[:-400]
 os.chdir("log/")
 
 feature_selection = 'None'
-algorithm = 'Logreg'
-runtime = 'Hyperperameter optimization in Logistic regression with C in np.linspace(0.01,5,100) and other default parameters. \
-Features used as they are.\n \
-Validation set has 400 points. Max_iters decreased to 50.'
+algorithm = 'MNB'
+runtime = 'Hyperparameter optimization in Gaussian Naive Bayes with alpha = np.linspace(0.01,0.1,50) default parameters. All features used.\n \
+Validation set has 400 points.'
 
-log_name = 'Logreg_'+str(datetime.datetime.now()).replace(' ','_')\
+log_name = 'MNB_'+str(datetime.datetime.now()).replace(' ','_')\
 .replace(':','_').split(".")[0]+'.log'
 
 logging.basicConfig(filename = log_name, level=logging.DEBUG)
@@ -58,29 +57,28 @@ logging.info('Runtime = ' + runtime)
 train_f1 = []
 val_f1 = []
 
-C_range = np.linspace(0.01,5,100)
+alpha_range = np.linspace(0.01,0.1,50)
 
-for C in tqdm(C_range):
-
-    classifier = logreg_model(C)
+for alpha in tqdm(alpha_range):
+    classifier = MNB(alpha = alpha)
     classifier.train(train_PC,train_labels)
 
     train_predict = classifier.predict(train_PC)
     val_predict = classifier.predict(validation_PC)
 
-    tf1 = f1_score(train_labels,train_predict,average='macro')
-    vf1 = f1_score(val_labels,val_predict,average='macro')
+    tf1 = f1_score(train_labels,train_predict,average = 'macro')
+    vf1 = f1_score(val_labels,val_predict,average = 'macro')
 
     train_f1.append(tf1)
     val_f1.append(vf1)
 
-    logging.info('C = {} \t Train F1 = {} \t Validation F1 = {}'.format(C,tf1,vf1))
+    logging.info('alpha = {} \t Train F1 = {} \t Validation F1 = {}'.format(alpha,tf1,vf1))
 
 logging.info("Time to run : {} s.".format(time()-start))
 
-plt.plot(C_range,train_f1,label='Train F1 Scores')
-plt.plot(C_range,val_f1,label='Validation F1 Scores')
-plt.xlabel("C")
+plt.plot(alpha_range,train_f1,label='Train F1 Scores')
+plt.plot(alpha_range,val_f1,label='Validation F1 Scores')
+plt.xlabel("Alpha")
 plt.ylabel("F1 Score")
 plt.legend()
 plt.grid()
