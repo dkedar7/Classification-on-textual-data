@@ -1,0 +1,23 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = Adaboost
+INFO:root:Runtime = Hyperparameter optimization in Adaboost with trees = range(20,30), and default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Trees = 20 	 Train F1 = 0.7143739767582533 	 Validation F1 = 0.7150518244049776
+INFO:root:Trees = 21 	 Train F1 = 0.7248335091897361 	 Validation F1 = 0.7176737032103994
+INFO:root:Trees = 22 	 Train F1 = 0.7250941565811839 	 Validation F1 = 0.7221215059190198
+INFO:root:Trees = 23 	 Train F1 = 0.7324303634432927 	 Validation F1 = 0.7302621930532409
+INFO:root:Trees = 24 	 Train F1 = 0.7393267306091139 	 Validation F1 = 0.742322002831557
+INFO:root:Trees = 25 	 Train F1 = 0.7426304529303305 	 Validation F1 = 0.7418410935215529
+INFO:root:Trees = 26 	 Train F1 = 0.7481420659350284 	 Validation F1 = 0.7474258289703315
+INFO:root:Trees = 27 	 Train F1 = 0.7568229565075013 	 Validation F1 = 0.7502283818612709
+INFO:root:Trees = 28 	 Train F1 = 0.752649861169691 	 Validation F1 = 0.7528599608086395
+INFO:root:Trees = 29 	 Train F1 = 0.7583373513333889 	 Validation F1 = 0.7577399846840094
+INFO:root:Time to run : 58851.50098109245 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

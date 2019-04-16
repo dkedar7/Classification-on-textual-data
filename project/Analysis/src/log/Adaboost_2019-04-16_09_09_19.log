@@ -1,0 +1,6 @@
+INFO:root:Feature_selection = PC
+INFO:root:Algorithm = Adaboost
+INFO:root:Runtime = Hyperparameter optimization in Adaboost with trees = range(50,51), and default parameters. All 2343 PCs used.
+ Validation set has 400 points.
+INFO:root:Trees = 50 	 Train F1 = 0.7612671023307269 	 Validation F1 = 0.6915206309769231
+INFO:root:Time to run : 51.01159715652466 s.

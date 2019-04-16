@@ -1,0 +1,33 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = RF
+INFO:root:Runtime = Hyperparameter optimization in RF with trees = range(30,50), and depth = 50 default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Trees = 30 	 Train F1 = 0.9969135907088625 	 Validation F1 = 0.8203798801422097
+INFO:root:Trees = 31 	 Train F1 = 0.9969135907088625 	 Validation F1 = 0.8278230234219196
+INFO:root:Trees = 32 	 Train F1 = 0.9974201763250116 	 Validation F1 = 0.8350330605444666
+INFO:root:Trees = 33 	 Train F1 = 0.9968996163193669 	 Validation F1 = 0.8304947712776143
+INFO:root:Trees = 34 	 Train F1 = 0.9974201763250116 	 Validation F1 = 0.8376339865971202
+INFO:root:Trees = 35 	 Train F1 = 0.9963767625981698 	 Validation F1 = 0.8306699915738653
+INFO:root:Trees = 36 	 Train F1 = 0.9963767625981698 	 Validation F1 = 0.8278882030197068
+INFO:root:Trees = 37 	 Train F1 = 0.9958552131282208 	 Validation F1 = 0.8300633995181161
+INFO:root:Trees = 38 	 Train F1 = 0.9953465434439874 	 Validation F1 = 0.8258193084233936
+INFO:root:Trees = 39 	 Train F1 = 0.9953465434439874 	 Validation F1 = 0.8216003034131467
+INFO:root:Trees = 40 	 Train F1 = 0.9953465434439874 	 Validation F1 = 0.8288709322143291
+INFO:root:Trees = 41 	 Train F1 = 0.9953465434439874 	 Validation F1 = 0.8289614760586176
+INFO:root:Trees = 42 	 Train F1 = 0.9963770009115801 	 Validation F1 = 0.8163119449179619
+INFO:root:Trees = 43 	 Train F1 = 0.997406367409452 	 Validation F1 = 0.8164914631312894
+INFO:root:Trees = 44 	 Train F1 = 0.997915555083733 	 Validation F1 = 0.816570743114887
+INFO:root:Trees = 45 	 Train F1 = 0.9994793839286198 	 Validation F1 = 0.8215520222107244
+INFO:root:Trees = 46 	 Train F1 = 0.998971253847319 	 Validation F1 = 0.8164034838044057
+INFO:root:Trees = 47 	 Train F1 = 1.0 	 Validation F1 = 0.8212371931970918
+INFO:root:Trees = 48 	 Train F1 = 1.0 	 Validation F1 = 0.8212371931970918
+INFO:root:Trees = 49 	 Train F1 = 0.9994793839286198 	 Validation F1 = 0.8156143693737679
+INFO:root:Time to run : 357.28900599479675 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

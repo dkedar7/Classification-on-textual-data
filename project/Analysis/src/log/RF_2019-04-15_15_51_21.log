@@ -1,0 +1,28 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = RF
+INFO:root:Runtime = Hyperparameter optimization in RF with trees = range(5,20), and depth = 50 default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Trees = 5 	 Train F1 = 0.9238610183309511 	 Validation F1 = 0.6428939780119793
+INFO:root:Trees = 6 	 Train F1 = 0.9408613661943422 	 Validation F1 = 0.6674962300006877
+INFO:root:Trees = 7 	 Train F1 = 0.9521362869069394 	 Validation F1 = 0.6915368559715318
+INFO:root:Trees = 8 	 Train F1 = 0.9609093188828473 	 Validation F1 = 0.7111687416457091
+INFO:root:Trees = 9 	 Train F1 = 0.9675663679679978 	 Validation F1 = 0.6981437319443843
+INFO:root:Trees = 10 	 Train F1 = 0.9753278434308852 	 Validation F1 = 0.7176559822644705
+INFO:root:Trees = 11 	 Train F1 = 0.9774110531661425 	 Validation F1 = 0.707971062526008
+INFO:root:Trees = 12 	 Train F1 = 0.9794876446151725 	 Validation F1 = 0.7110873398856545
+INFO:root:Trees = 13 	 Train F1 = 0.9840367110325886 	 Validation F1 = 0.7385222702041214
+INFO:root:Trees = 14 	 Train F1 = 0.9855856880920221 	 Validation F1 = 0.7457958803868943
+INFO:root:Trees = 15 	 Train F1 = 0.9866242268766318 	 Validation F1 = 0.7463101988749365
+INFO:root:Trees = 16 	 Train F1 = 0.9891747462262137 	 Validation F1 = 0.7489920350685235
+INFO:root:Trees = 17 	 Train F1 = 0.989167076578142 	 Validation F1 = 0.7634776554517572
+INFO:root:Trees = 18 	 Train F1 = 0.9902125217662389 	 Validation F1 = 0.7634754167174429
+INFO:root:Trees = 19 	 Train F1 = 0.9902101077101501 	 Validation F1 = 0.78839685539524
+INFO:root:Time to run : 102.21323919296265 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

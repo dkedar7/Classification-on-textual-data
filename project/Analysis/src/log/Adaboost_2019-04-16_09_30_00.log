@@ -1,0 +1,33 @@
+INFO:root:Feature_selection = PC
+INFO:root:Algorithm = Adaboost
+INFO:root:Runtime = Hyperparameter optimization in Adaboost with trees = range(50,70), and default parameters. All 2343 PCs used.
+ Validation set has 400 points.
+INFO:root:Trees = 50 	 Train F1 = 0.7612671023307269 	 Validation F1 = 0.6915206309769231
+INFO:root:Trees = 51 	 Train F1 = 0.7671409269970189 	 Validation F1 = 0.6828491676618774
+INFO:root:Trees = 52 	 Train F1 = 0.769741464897598 	 Validation F1 = 0.6962051211729839
+INFO:root:Trees = 53 	 Train F1 = 0.7725182296516191 	 Validation F1 = 0.6933012224699386
+INFO:root:Trees = 54 	 Train F1 = 0.7709441027126038 	 Validation F1 = 0.7009451179508792
+INFO:root:Trees = 55 	 Train F1 = 0.7752525957125043 	 Validation F1 = 0.6911036036036036
+INFO:root:Trees = 56 	 Train F1 = 0.7722096507371867 	 Validation F1 = 0.6986453918561968
+INFO:root:Trees = 57 	 Train F1 = 0.7685707219654768 	 Validation F1 = 0.6991610781615026
+INFO:root:Trees = 58 	 Train F1 = 0.772308372753822 	 Validation F1 = 0.697044739701938
+INFO:root:Trees = 59 	 Train F1 = 0.7730016306569979 	 Validation F1 = 0.680227412893027
+INFO:root:Trees = 60 	 Train F1 = 0.7806947454992114 	 Validation F1 = 0.6794741303577209
+INFO:root:Trees = 61 	 Train F1 = 0.786457499802523 	 Validation F1 = 0.6819039072728209
+INFO:root:Trees = 62 	 Train F1 = 0.7823184098139032 	 Validation F1 = 0.6742703226135186
+INFO:root:Trees = 63 	 Train F1 = 0.7884026057859431 	 Validation F1 = 0.6785557127121512
+INFO:root:Trees = 64 	 Train F1 = 0.7897969190847781 	 Validation F1 = 0.6741142667261136
+INFO:root:Trees = 65 	 Train F1 = 0.78983128003714 	 Validation F1 = 0.6848313532975887
+INFO:root:Trees = 66 	 Train F1 = 0.7862882175702213 	 Validation F1 = 0.6874989365676473
+INFO:root:Trees = 67 	 Train F1 = 0.7835955592386183 	 Validation F1 = 0.682698595029102
+INFO:root:Trees = 68 	 Train F1 = 0.7894903860791384 	 Validation F1 = 0.6996396675026775
+INFO:root:Trees = 69 	 Train F1 = 0.7804216543933206 	 Validation F1 = 0.6969866629552992
+INFO:root:Time to run : 1296.8808326721191 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

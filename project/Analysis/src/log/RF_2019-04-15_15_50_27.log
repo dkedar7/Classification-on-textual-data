@@ -1,0 +1,4 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = RF
+INFO:root:Runtime = Hyperparameter optimization in RF with trees = np.linspace(5,20,15), and depth = 50 default parameters. All features used.
+ Validation set has 400 points.

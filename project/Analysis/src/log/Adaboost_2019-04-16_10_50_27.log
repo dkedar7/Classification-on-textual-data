@@ -1,0 +1,6 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = Adaboost
+INFO:root:Runtime = Hyperparameter optimization in Adaboost with trees = 40, and default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Trees = 40 	 Train F1 = 0.7645546035166058 	 Validation F1 = 0.7338977249386606
+INFO:root:Time to run : 265.31011605262756 s.

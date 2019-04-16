@@ -1,0 +1,43 @@
+INFO:root:Feature_selection = PC
+INFO:root:Algorithm = Adaboost
+INFO:root:Runtime = Hyperparameter optimization in Adaboost with trees = range(20,50), and default parameters. All 2343 PCs used.
+ Validation set has 400 points.
+INFO:root:Trees = 20 	 Train F1 = 0.7097414847716297 	 Validation F1 = 0.6438687203105118
+INFO:root:Trees = 21 	 Train F1 = 0.7074698892395843 	 Validation F1 = 0.6624542022502912
+INFO:root:Trees = 22 	 Train F1 = 0.7047105050766047 	 Validation F1 = 0.6716360527134008
+INFO:root:Trees = 23 	 Train F1 = 0.7290070189184192 	 Validation F1 = 0.6719884600319382
+INFO:root:Trees = 24 	 Train F1 = 0.7350730490614015 	 Validation F1 = 0.690350091885435
+INFO:root:Trees = 25 	 Train F1 = 0.7336774580600408 	 Validation F1 = 0.6885414678920331
+INFO:root:Trees = 26 	 Train F1 = 0.7208166431855975 	 Validation F1 = 0.6852383953027064
+INFO:root:Trees = 27 	 Train F1 = 0.724927858688664 	 Validation F1 = 0.6674963188168879
+INFO:root:Trees = 28 	 Train F1 = 0.7209796797702317 	 Validation F1 = 0.6943310710008759
+INFO:root:Trees = 29 	 Train F1 = 0.7384764630133368 	 Validation F1 = 0.6993991989319093
+INFO:root:Trees = 30 	 Train F1 = 0.7354935165976927 	 Validation F1 = 0.6999712437242754
+INFO:root:Trees = 31 	 Train F1 = 0.7424000534284214 	 Validation F1 = 0.6936318772811663
+INFO:root:Trees = 32 	 Train F1 = 0.7398108545145169 	 Validation F1 = 0.6814730514599608
+INFO:root:Trees = 33 	 Train F1 = 0.7370444613819163 	 Validation F1 = 0.6822430830685549
+INFO:root:Trees = 34 	 Train F1 = 0.7456243984150821 	 Validation F1 = 0.6829139891175947
+INFO:root:Trees = 35 	 Train F1 = 0.7512065521972615 	 Validation F1 = 0.6956467227468192
+INFO:root:Trees = 36 	 Train F1 = 0.7543658042592118 	 Validation F1 = 0.6956467227468192
+INFO:root:Trees = 37 	 Train F1 = 0.7447898927900279 	 Validation F1 = 0.6966070113730268
+INFO:root:Trees = 38 	 Train F1 = 0.7550631840955842 	 Validation F1 = 0.7118797722723293
+INFO:root:Trees = 39 	 Train F1 = 0.7551627800279692 	 Validation F1 = 0.7120722827817689
+INFO:root:Trees = 40 	 Train F1 = 0.7612612107810235 	 Validation F1 = 0.7118551127329444
+INFO:root:Trees = 41 	 Train F1 = 0.7614404841209842 	 Validation F1 = 0.7082894002462292
+INFO:root:Trees = 42 	 Train F1 = 0.7617981686786491 	 Validation F1 = 0.7138881545903936
+INFO:root:Trees = 43 	 Train F1 = 0.7648828786231396 	 Validation F1 = 0.695139038536746
+INFO:root:Trees = 44 	 Train F1 = 0.7667296823092922 	 Validation F1 = 0.7090605373754545
+INFO:root:Trees = 45 	 Train F1 = 0.7619744308552021 	 Validation F1 = 0.697314752659532
+INFO:root:Trees = 46 	 Train F1 = 0.7618947189042006 	 Validation F1 = 0.7016408587239893
+INFO:root:Trees = 47 	 Train F1 = 0.7594205664510165 	 Validation F1 = 0.6946952504393773
+INFO:root:Trees = 48 	 Train F1 = 0.7647806372403834 	 Validation F1 = 0.6963697332516574
+INFO:root:Trees = 49 	 Train F1 = 0.764386189490865 	 Validation F1 = 0.6938228882150226
+INFO:root:Time to run : 1087.9038603305817 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

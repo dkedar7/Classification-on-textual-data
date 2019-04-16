@@ -6,3 +6,13 @@ INFO:root:C = 1.5 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.305085392
 INFO:root:C = 1.625 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
 INFO:root:C = 1.75 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
 INFO:root:C = 1.875 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
+INFO:root:C = 2.0 	 Train F1 = 0.33210489309886904 	 Validation F1 = 0.30508539285805186
+INFO:root:Time to run : 7631.170807361603 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

@@ -1,0 +1,33 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = RF
+INFO:root:Runtime = Hyperparameter optimization in RF with Depth = range(80,100), and ntrees = 34 default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Depth = 80 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8171016245726903
+INFO:root:Depth = 81 	 Train F1 = 0.9994793839286198 	 Validation F1 = 0.8213519520680325
+INFO:root:Depth = 82 	 Train F1 = 0.9994793839286198 	 Validation F1 = 0.8066378742773956
+INFO:root:Depth = 83 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8240845041042169
+INFO:root:Depth = 84 	 Train F1 = 0.9989717681442467 	 Validation F1 = 0.8336264660486696
+INFO:root:Depth = 85 	 Train F1 = 0.998971253847319 	 Validation F1 = 0.8184950948275853
+INFO:root:Depth = 86 	 Train F1 = 1.0 	 Validation F1 = 0.8268988854171022
+INFO:root:Depth = 87 	 Train F1 = 1.0 	 Validation F1 = 0.8239976012855976
+INFO:root:Depth = 88 	 Train F1 = 1.0 	 Validation F1 = 0.8214028047360157
+INFO:root:Depth = 89 	 Train F1 = 1.0 	 Validation F1 = 0.8063345983554712
+INFO:root:Depth = 90 	 Train F1 = 1.0 	 Validation F1 = 0.8267852642372429
+INFO:root:Depth = 91 	 Train F1 = 1.0 	 Validation F1 = 0.8193876101165103
+INFO:root:Depth = 92 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8427851344874241
+INFO:root:Depth = 93 	 Train F1 = 1.0 	 Validation F1 = 0.825997055273573
+INFO:root:Depth = 94 	 Train F1 = 1.0 	 Validation F1 = 0.8396730892022526
+INFO:root:Depth = 95 	 Train F1 = 1.0 	 Validation F1 = 0.8068767280378956
+INFO:root:Depth = 96 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.836726163558297
+INFO:root:Depth = 97 	 Train F1 = 0.9994918693939097 	 Validation F1 = 0.8160043346650498
+INFO:root:Depth = 98 	 Train F1 = 1.0 	 Validation F1 = 0.814772774864697
+INFO:root:Depth = 99 	 Train F1 = 1.0 	 Validation F1 = 0.8347236945398754
+INFO:root:Time to run : 348.9788854122162 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos

@@ -56,7 +56,7 @@ class RandomForest(object):
         self.depth = depth
 
     def train(self,feature_matrix,label_vector):
-        self.trained_model = RandomForestClassifier(n_estimators=self.ntrees, max_depth=self.depth,random_state=0)
+        self.trained_model = RandomForestClassifier(n_estimators=self.ntrees, max_depth=self.depth, random_state=0)
         self.trained_model.fit(feature_matrix,label_vector)
 
     def predict(self,feature_matrix):

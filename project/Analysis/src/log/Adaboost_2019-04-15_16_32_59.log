@@ -1,0 +1,4 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = Adaboost
+INFO:root:Runtime = Hyperparameter optimization in Adaboost with trees = range(20,50), and default parameters. All features used.
+ Validation set has 400 points.

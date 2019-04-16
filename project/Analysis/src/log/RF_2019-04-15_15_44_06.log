@@ -1,0 +1,43 @@
+INFO:root:Feature_selection = None
+INFO:root:Algorithm = RF
+INFO:root:Runtime = Hyperparameter optimization in RF with depth = np.linspace(20,50,30), and #trees = 5 default parameters. All features used.
+ Validation set has 400 points.
+INFO:root:Depth = 20.0 	 Train F1 = 0.7846552639755898 	 Validation F1 = 0.617002813507637
+INFO:root:Depth = 21.03448275862069 	 Train F1 = 0.8144373649467901 	 Validation F1 = 0.6003644475575765
+INFO:root:Depth = 22.06896551724138 	 Train F1 = 0.7972578858917245 	 Validation F1 = 0.6133639486254241
+INFO:root:Depth = 23.10344827586207 	 Train F1 = 0.8072019781392825 	 Validation F1 = 0.6002809481350414
+INFO:root:Depth = 24.137931034482758 	 Train F1 = 0.819805157504655 	 Validation F1 = 0.6084434167037202
+INFO:root:Depth = 25.17241379310345 	 Train F1 = 0.8202484317205848 	 Validation F1 = 0.6121674686158463
+INFO:root:Depth = 26.20689655172414 	 Train F1 = 0.8454453832349637 	 Validation F1 = 0.6039628668498616
+INFO:root:Depth = 27.24137931034483 	 Train F1 = 0.8514485599085994 	 Validation F1 = 0.6373578794513228
+INFO:root:Depth = 28.275862068965516 	 Train F1 = 0.85242193220576 	 Validation F1 = 0.617632965140497
+INFO:root:Depth = 29.310344827586206 	 Train F1 = 0.8572176132238523 	 Validation F1 = 0.5970795737970737
+INFO:root:Depth = 30.344827586206897 	 Train F1 = 0.8793465465748987 	 Validation F1 = 0.6577339521908351
+INFO:root:Depth = 31.379310344827587 	 Train F1 = 0.8732921730988606 	 Validation F1 = 0.6286734131075993
+INFO:root:Depth = 32.41379310344828 	 Train F1 = 0.8720436432719235 	 Validation F1 = 0.6100215779736006
+INFO:root:Depth = 33.44827586206897 	 Train F1 = 0.8721314964506431 	 Validation F1 = 0.6373485268818362
+INFO:root:Depth = 34.48275862068966 	 Train F1 = 0.8870303639850149 	 Validation F1 = 0.614517390806836
+INFO:root:Depth = 35.51724137931035 	 Train F1 = 0.8876883553771124 	 Validation F1 = 0.6175274121667048
+INFO:root:Depth = 36.55172413793103 	 Train F1 = 0.8908358264861894 	 Validation F1 = 0.6295002323314172
+INFO:root:Depth = 37.58620689655173 	 Train F1 = 0.8886021613550689 	 Validation F1 = 0.615609765857952
+INFO:root:Depth = 38.62068965517241 	 Train F1 = 0.8872961294190181 	 Validation F1 = 0.6538003818468643
+INFO:root:Depth = 39.6551724137931 	 Train F1 = 0.8945981956218356 	 Validation F1 = 0.6210759052011954
+INFO:root:Depth = 40.689655172413794 	 Train F1 = 0.9024805950771749 	 Validation F1 = 0.6278642503694041
+INFO:root:Depth = 41.724137931034484 	 Train F1 = 0.8960188568405363 	 Validation F1 = 0.6348445605578945
+INFO:root:Depth = 42.758620689655174 	 Train F1 = 0.9076489646497985 	 Validation F1 = 0.6220461792862457
+INFO:root:Depth = 43.793103448275865 	 Train F1 = 0.9075538266337307 	 Validation F1 = 0.6386524621894595
+INFO:root:Depth = 44.827586206896555 	 Train F1 = 0.9109970025778743 	 Validation F1 = 0.6624285858725412
+INFO:root:Depth = 45.86206896551724 	 Train F1 = 0.910705989381314 	 Validation F1 = 0.6537268726968495
+INFO:root:Depth = 46.896551724137936 	 Train F1 = 0.913839177160752 	 Validation F1 = 0.667952472733019
+INFO:root:Depth = 47.93103448275862 	 Train F1 = 0.9207716794936923 	 Validation F1 = 0.6719494062808342
+INFO:root:Depth = 48.96551724137932 	 Train F1 = 0.9111210645007645 	 Validation F1 = 0.635035945919197
+INFO:root:Depth = 50.0 	 Train F1 = 0.9238610183309511 	 Validation F1 = 0.6428939780119793
+INFO:root:Time to run : 85.606858253479 s.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\Associate\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
